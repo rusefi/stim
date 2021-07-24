@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "stim_lib")(type "KiCad")(uri "${KIPRJMOD}/lib/stim_lib.kicad_sym")(options "")(descr ""))
+  (lib (name "NUCLEO-F429ZI")(type "KiCad")(uri "${KIPRJMOD}/lib/NUCLEO-F429ZI.kicad_sym")(options "")(descr ""))
 )
