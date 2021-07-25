@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "(5.99.0-10483-ga6ad7a4a70)"
     },
-    "CreationDate": "2021-07-25T01:23:19+03:00"
+    "CreationDate": "2021-07-25T14:43:05+03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "stim",
-      "GUID": "7374696d-2e6b-4696-9361-645f70636258",
+      "Name": "digital_inputs",
+      "GUID": "64696769-7461-46c5-9f69-6e707574732e",
       "Revision": "rev?"
     },
     "Size": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "stim-F_Cu.gbr",
+      "Path": "digital_inputs-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "stim-B_Cu.gbr",
+      "Path": "digital_inputs-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "stim-F_Paste.gbr",
+      "Path": "digital_inputs-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "stim-B_Paste.gbr",
+      "Path": "digital_inputs-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "stim-F_Silkscreen.gbr",
+      "Path": "digital_inputs-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "stim-B_Silkscreen.gbr",
+      "Path": "digital_inputs-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "stim-F_Mask.gbr",
+      "Path": "digital_inputs-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "stim-B_Mask.gbr",
+      "Path": "digital_inputs-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "stim-Edge_Cuts.gbr",
+      "Path": "digital_inputs-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
