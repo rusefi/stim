@@ -1,38 +1,39 @@
 pins:
   - pin: 1A
-    function:
+    function: Input 1
 
   - pin: 2A
+    function: Input 2
 
   - pin: 3A
-    function:
+    function: Input 3
 
   - pin: 4A
-    function:
+    function: Input 4
 
   - pin: 5A
-    function:
+    function: Input 5
 
   - pin: 6A
-    function:
+    function: Input 6
 
   - pin: 7A
-    function:
+    function: Input 7
 
   - pin: 8A
-    function:
+    function: Input 8
 
   - pin: 9A
-    function:
+    function: Input 9
 
   - pin: 10A
-    function:
+    function: Input 10
 
   - pin: 11A
-    function:
+    function: Input 11
 
   - pin: 12A
-    function:
+    function: Input 12
   
   - pin: 13A
     function:
@@ -179,7 +180,7 @@ pins:
     function:
 
 info:
-  title: Stim
+  title: stim
   image:
     file: 60pins.jpg
   pins:
