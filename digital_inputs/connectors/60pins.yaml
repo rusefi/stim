@@ -1,40 +1,52 @@
 pins:
   - pin: 1A
     function: Input 1
+    type: din
 
   - pin: 2A
     function: Input 2
+    type: din
 
   - pin: 3A
     function: Input 3
+    type: din
 
   - pin: 4A
     function: Input 4
+    type: din
 
   - pin: 5A
     function: Input 5
+    type: din
 
   - pin: 6A
     function: Input 6
+    type: din
 
   - pin: 7A
     function: Input 7
+    type: din
 
   - pin: 8A
     function: Input 8
+    type: din
 
   - pin: 9A
     function: Input 9
+    type: din
 
   - pin: 10A
     function: Input 10
+    type: din
 
   - pin: 11A
     function: Input 11
+    type: din
 
   - pin: 12A
     function: Input 12
-  
+    type: din
+
   - pin: 13A
     function:
   
@@ -168,16 +180,20 @@ pins:
     function:
 
   - pin: 23B
-    function:
+    function: CAN Low
+    type: can
 
   - pin: 24B
-    function:
+    function: CAN High
+    type: can
 
   - pin: 25B
-    function:
+    function: +12v
+    type: 12v
 
   - pin: 26B
-    function:
+    function: power GND
+    type: gnd
 
 info:
   title: stim
