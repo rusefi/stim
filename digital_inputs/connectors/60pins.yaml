@@ -132,52 +132,52 @@ pins:
     function:
   
   - pin: 7B
-    function:
+    function: Reference voltage out 1
   
   - pin: 8B
-    function:
+    function: Reference voltage out 2
   
   - pin: 9B
-    function:
+    function: Reference voltage out 3
   
   - pin: 10B
-    function:
+    function: Reference voltage out 4
 
   - pin: 11B
-    function:
+    function: Reference voltage out 5
 
   - pin: 12B
-    function:
+    function: Reference voltage out 6
 
   - pin: 13B
-    function:
+    function: Reference voltage out 7
 
   - pin: 14B
-    function:
+    function: Reference voltage out 8
   
   - pin: 15B
-    function:
+    function: Digital Out 1
   
   - pin: 16B
-    function:
+    function: Digital Out 2
   
   - pin: 17B
-    function:
+    function: Digital Out 3
   
   - pin: 18B
-    function:
+    function: Digital Out 4
 
   - pin: 19B
-    function:
+    function: Digital Out 5
 
   - pin: 20B
-    function:
+    function: Digital Out 6
 
   - pin: 21B
-    function:
+    function: Digital Out 7
 
   - pin: 22B
-    function:
+    function: Digital Out 8
 
   - pin: 23B
     function: CAN Low
