@@ -48,29 +48,37 @@ pins:
     type: din
 
   - pin: 13A
-    function:
+    function: Input 13
+    type: din
   
   - pin: 14A
-    function:
+    function: Input 14
+    type: din
   
   - pin: 15A
-    function:
+    function: Input 15
+    type: din
   
   - pin: 16A
-    function:
+    function: Input 16
+    type: din
   
   - pin: 17A
-    function:
+    function: Input 17
+    type: din
     
   - pin: 18A
-    function:
+    function: Input 18
+    type: din
   
   - pin: 19A
-    function:
+    function: Input 19
+    type: din
   
   - pin: 20A
-    function:
-  
+    function: Input 20
+    type: din
+
   - pin: 21A
     function:
   
@@ -112,7 +120,7 @@ pins:
   
   - pin: 34A
     function:
-  
+
   - pin: 1B
     function: +5v input 1
     type: 5v
@@ -201,6 +209,8 @@ pins:
 
 info:
   title: stim
+  cid: main
+  order: 0
   image:
     file: 60pins.jpg
   pins:
