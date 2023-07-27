@@ -87,27 +87,27 @@ pins:
     type: av
 
   - pin: 23C
-    function:
+    function: Reference voltage out 9
   - pin: 24C
-    function:
+    function: Reference voltage out 10
 
   - pin: 25C
-    function:
+    function: Reference voltage out 11
 
   - pin: 26C
-    function:
-    
+    function: Reference voltage out 12
+
   - pin: 27C
-    function:
+    function: Reference voltage out 13
 
   - pin: 28C
-    function:
+    function: Reference voltage out 14
 
   - pin: 29C
-    function:
+    function: Reference voltage out 15
 
   - pin: 30C
-    function:
+    function: Reference voltage out 16
 
   - pin: 31C
     function:
