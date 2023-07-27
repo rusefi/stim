@@ -130,7 +130,8 @@ pins:
     type: 5v
 
   - pin: 3B
-    function:
+    function: +12v output
+    type: 12v output
 
   - pin: 4B
     function:
@@ -200,8 +201,8 @@ pins:
     type: can
 
   - pin: 25B
-    function: +12v
-    type: 12v
+    function: +12v output
+    type: 12v output
 
   - pin: 26B
     function: power GND
