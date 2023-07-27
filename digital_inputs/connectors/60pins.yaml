@@ -114,10 +114,12 @@ pins:
     function:
   
   - pin: 1B
-    function:
+    function: +5v input 1
+    type: 5v
 
   - pin: 2B
-    function:
+    function: +5v input 2
+    type: 5v
 
   - pin: 3B
     function:
@@ -126,11 +128,13 @@ pins:
     function:
 
   - pin: 5B
-    function:
+    function: Pull Down 1K
+    type: av
   
   - pin: 6B
-    function:
-  
+    function: Pull Down 2K
+    type: av
+
   - pin: 7B
     function: Reference voltage out 1
   
