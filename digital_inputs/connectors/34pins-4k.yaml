@@ -79,10 +79,13 @@ pins:
     type: din
 
   - pin: 21C
-    function:
+    function: Pull Down 1K
+    type: av
 
   - pin: 22C
-    function:
+    function: Pull Down 2K
+    type: av
+
   - pin: 23C
     function:
   - pin: 24C
