@@ -1,12 +1,6 @@
 name: Create Board
 
-on:
-  workflow_call:
-    inputs:
-      token:
-        description: 'Token for accessing private repos'
-        required: false
-        type: string
+on: [push,pull_request]
 
 jobs:
   create-board:
@@ -15,11 +9,7 @@ jobs:
     steps:
       - name: Set Token
         run: |
-          if ! [[ -z "${{ inputs.token }}" ]]; then
-            echo "TOKEN=${{ inputs.token }}" >> "$GITHUB_ENV"
-          else
-            echo "TOKEN=${{ github.token }}" >> "$GITHUB_ENV"
-          fi
+          echo "TOKEN=${{ github.token }}" >> "$GITHUB_ENV"
 
       - uses: actions/checkout@v3
         with:
