@@ -23,7 +23,7 @@ jobs:
           pip install kicad-netlist-reader
 
       - name: Generate Gerber Files
-        working-directory: stim
+        working-directory: digital_inputs
         run: |
           bash ../hellen-one/kicad/bin/export.sh
 
@@ -40,7 +40,7 @@ jobs:
 #          bash hellen-one/bin/step3_create_board_with_docker.sh
 
       - name: Commit fresh board files
-        working-directory: stim
+        working-directory: digital_inputs
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
         run: |
