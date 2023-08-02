@@ -1,8 +1,8 @@
 
 # make sure to increment revision BEFORE any changes to content
 
-BOARD_PREFIX=digital_inputs
-BOARD_SUFFIX=
+BOARD_PREFIX=digital_
+BOARD_SUFFIX=inputs
 BOARD_REVISION=a
 
 # does not affect fab files, only needed to have nice rendered preview
