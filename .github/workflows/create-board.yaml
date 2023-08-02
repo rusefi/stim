@@ -31,13 +31,15 @@ jobs:
         run: |
           bash hellen-one/bin/step1_build_hellen-one_docker.sh
 
-#      - name: 2. Copy
-#        run: |
-#          bash hellen-one/bin/step2_copy_with_docker.sh
+      - name: 2. Copy
+        working-directory: digital_inputs
+        run: |
+          bash ../hellen-one/bin/step2_copy_with_docker.sh
 
-#      - name: 3. Create Board
-#        run: |
-#          bash hellen-one/bin/step3_create_board_with_docker.sh
+      - name: 3. Create Board
+        working-directory: digital_inputs
+        run: |
+          bash ../hellen-one/bin/step3_create_board_with_docker.sh
 
       - name: Commit fresh board files
         working-directory: digital_inputs
