@@ -1,3 +1,6 @@
 *-backups
 *.kicad_prl
 .idea/
+
+# this is KiCAD cache - we rely on libraries being not broken so no cache in GIT
+fp-info-cache
