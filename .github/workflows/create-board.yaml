@@ -36,10 +36,10 @@ jobs:
         run: |
           bash ../hellen-one/bin/step2_copy_with_docker.sh
 
-      - name: 3. Create Board
-        working-directory: digital_inputs
-        run: |
-          bash ../hellen-one/bin/step3_create_board_with_docker.sh
+#      - name: 3. Create Board
+#        working-directory: digital_inputs
+#        run: |
+#          bash ../hellen-one/bin/step3_create_board_with_docker.sh
 
       - name: Commit fresh board files
         working-directory: digital_inputs
