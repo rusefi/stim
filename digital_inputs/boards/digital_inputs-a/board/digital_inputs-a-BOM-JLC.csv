@@ -27,5 +27,5 @@ Comment,Designator,Footprint,LCSC Part #
 "TC4427","U8, U9","SO8","C20551"
 "ULN2003A","U10","SOIC-16_3.9x9.9mm_P1.27mm","C7512"
 "TJA1051T-3","U12","SO8","C38695"
-" ""nSMD005""","F2, F3, F4, F5, F6, F7, F8, F9"," ""F1206"""," ""C70064"""
-" ""OPA4192IPWR""","U1"," ""TSSOP-14"""," ""C2057935"""
+"nSMD005","F2, F3, F4, F5, F6, F7, F8, F9","F1206","C70064"
+"OPA4192IPWR","U1","TSSOP-14","C2057935"
