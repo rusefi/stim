@@ -193,11 +193,13 @@ pins:
     function: Digital Out 8
 
   - pin: 23B
-    function: CAN Low
+    function: CAN bus low
+    color: blue
     type: can
 
   - pin: 24B
-    function: CAN High
+    function: CAN bus high
+    color: green
     type: can
 
   - pin: 25B
