@@ -137,18 +137,18 @@ pins:
     function:
 
   - pin: 5B
-    function: Pull Down 1K
+    function: Pull Down 1K (IAT)
     type: av
   
   - pin: 6B
-    function: Pull Down 2K
+    function: Pull Down 2K (CLT)
     type: av
 
   - pin: 7B
-    function: Reference voltage out 1
+    function: Reference voltage out 1 (TPS1)
   
   - pin: 8B
-    function: Reference voltage out 2
+    function: Reference voltage out 2 (MAP)
   
   - pin: 9B
     function: Reference voltage out 3
