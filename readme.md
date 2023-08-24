@@ -6,3 +6,15 @@ Part of https://github.com/rusefi/rusefi infrastucture
 
 https://github.com/rusefi/rusefi/wiki/dev-hardware-quality-control
 
+![image](https://github.com/rusefi/stim/assets/48498823/09e251f0-d577-47c5-908c-776eeab344c3)
+
+
+# Changelog
+
+## rev 0.2
+
+* CAN bus
+* superseal header
+
+##  rev 0.1
+* it works!
