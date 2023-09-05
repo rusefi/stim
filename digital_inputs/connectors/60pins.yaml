@@ -2,18 +2,22 @@ pins:
   - pin: 1A
     function: Input 1
     type: din
+    color: green
 
   - pin: 2A
     function: Input 2
     type: din
+    color: white
 
   - pin: 3A
     function: Input 3
     type: din
+    color: blue
 
   - pin: 4A
     function: Input 4
     type: din
+    color: orange
 
   - pin: 5A
     function: Input 5
