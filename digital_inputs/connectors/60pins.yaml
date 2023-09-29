@@ -149,28 +149,28 @@ pins:
     type: av
 
   - pin: 7B
-    function: Reference voltage out 1 (TPS1)
+    function: Reference voltage out 1 (TPS1) 0.5v
   
   - pin: 8B
-    function: Reference voltage out 2 (MAP)
+    function: Reference voltage out 2 (MAP) 0.6v
   
   - pin: 9B
-    function: Reference voltage out 3
+    function: Reference voltage out 3 0.8v
   
   - pin: 10B
-    function: Reference voltage out 4
+    function: Reference voltage out 4 0.9v
 
   - pin: 11B
-    function: Reference voltage out 5
+    function: Reference voltage out 5 1.1v
 
   - pin: 12B
-    function: Reference voltage out 6
+    function: Reference voltage out 6 1.4v
 
   - pin: 13B
-    function: Reference voltage out 7
+    function: Reference voltage out 7 1.6v
 
   - pin: 14B
-    function: Reference voltage out 8
+    function: Reference voltage out 8 1.9v
   
   - pin: 15B
     function: Digital Out 1
