@@ -216,6 +216,7 @@ pins:
 
 info:
   title: stim
+  board_url: https://github.com/rusefi/stim
   cid: main
   order: 0
   image:
