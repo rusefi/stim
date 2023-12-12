@@ -1,4 +1,9 @@
 (sym_lib_table
+  (version 7)
   (lib (name "stim_lib")(type "KiCad")(uri "${KIPRJMOD}/lib/stim_lib.kicad_sym")(options "")(descr ""))
   (lib (name "NUCLEO-F429ZI")(type "KiCad")(uri "${KIPRJMOD}/lib/NUCLEO-F429ZI.kicad_sym")(options "")(descr ""))
+  (lib (name "TE_6437288-3")(type "KiCad")(uri "${KIPRJMOD}/../kicad6-libraries/TE_6437288-3.kicad_sym")(options "")(descr ""))
+  (lib (name "hellen-one-common")(type "KiCad")(uri "${KIPRJMOD}/../hellen-one/kicad/hellen-one-common.kicad_sym")(options "")(descr ""))
+  (lib (name "semiconductors")(type "KiCad")(uri "${KIPRJMOD}/../kicad6-libraries/semiconductors.kicad_sym")(options "")(descr ""))
+  (lib (name "TE_6437288-2")(type "KiCad")(uri "${KIPRJMOD}/../kicad6-libraries/TE_6437288-2.kicad_sym")(options "")(descr ""))
 )
