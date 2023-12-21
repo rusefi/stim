@@ -155,13 +155,13 @@ pins:
     function: Reference voltage out 2 (MAP) 0.6v
   
   - pin: 9B
-    function: Reference voltage out 3 0.8v
+    function: Reference voltage out 3 0.8v (often TPS2)
   
   - pin: 10B
-    function: Reference voltage out 4 0.9v
+    function: Reference voltage out 4 0.9v (often PPS1)
 
   - pin: 11B
-    function: Reference voltage out 5 1.1v
+    function: Reference voltage out 5 1.1v (often PPS2)
 
   - pin: 12B
     function: Reference voltage out 6 1.4v
