@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/runner/work/stim/stim/digital_inputs/digital_inputs.kicad_sch</source>
-    <date>Thu Dec 21 23:25:17 2023</date>
-    <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
+    <date>Thu Jan  4 22:29:33 2024</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>stim</title>
@@ -740,12 +740,14 @@
     </comp>
     <comp ref="J19">
       <value>6437288-3</value>
-      <footprint>kicad6-libraries:TE_6437288-3</footprint>
+      <footprint>TE_6437288-3</footprint>
       <fields>
         <field name="Comment">6437288-3</field>
+        <field name="LCSC">C591769</field>
       </fields>
       <libsource lib="TE_6437288-3" part="6437288-3" description=""/>
       <property name="Comment" value="6437288-3"/>
+      <property name="LCSC" value="C591769"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="digital_inputs.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3220,6 +3222,7 @@
         <field name="Value">6437288-3</field>
         <field name="Footprint">TE_6437288-3</field>
         <field name="Comment">6437288-3</field>
+        <field name="LCSC">C591769</field>
       </fields>
       <pins>
         <pin num="1" name="1A" type="passive"/>

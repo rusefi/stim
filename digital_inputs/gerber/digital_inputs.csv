@@ -53,7 +53,7 @@
 "Conn_01x01","J16","MountingHole:MountingHole_3.2mm_M3_Pad_Via",""
 "Conn_01x01","J17","MountingHole:MountingHole_3.2mm_M3_Pad_Via",""
 "Conn_02x05_Odd_Even","J18","Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical","C92270"
-"6437288-3","J19","kicad6-libraries:TE_6437288-3",""
+"6437288-3","J19","TE_6437288-3","C591769"
 "Conn_02x24_Odd_Even","J20","Connector_PinHeader_2.54mm:PinHeader_2x24_P2.54mm_Vertical",""
 "Conn_02x08_Odd_Even","J21","Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical",""
 "Conn_02x15_Odd_Even","J22","Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical",""

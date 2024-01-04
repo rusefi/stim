@@ -7,6 +7,7 @@ Comment,Designator,Footprint,LCSC Part #
 "LED-RED-0603","D3, D4","LED-0603","C2286"
 "1.8A","F1","Fuse_1206_3216Metric","C369161"
 "Conn_02x05_Odd_Even","J18","PinHeader_2x05_P2.54mm_Vertical","C92270"
+"6437288-3","J19","TE_6437288-3","C591769"
 "Conn_02x10_Odd_Even","J25","PinHeader_2x10_P2.54mm_Vertical","C92266"
 "Conn_02x16_Odd_Even","J27","PinHeader_2x16_P2.54mm_Vertical","C132130"
 "AO3400A","Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8","SOT-23","C20917"
