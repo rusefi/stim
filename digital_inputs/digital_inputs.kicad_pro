@@ -56,7 +56,21 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|142099999|106780001|9cf59e69-0d2e-4c48-a36a-ed4dd226f08e|d71f7858-2ae0-4912-906b-a2c78ab6815c",
+        "courtyards_overlap|142099999|119480001|0cd7c55e-3b3f-4b15-9434-84ba17a4dff9|9cf59e69-0d2e-4c48-a36a-ed4dd226f08e",
+        "courtyards_overlap|145714306|159855953|40b23242-1399-4eff-a4ee-6b30e6fb0804|d936a56e-3576-4c9f-868a-1c4b114e1c1b",
+        "courtyards_overlap|191434306|159855953|4c1c3577-5519-4e5c-b76f-21358d332ac0|d5b9861e-1ae1-48aa-bf47-f7a46658309e",
+        "courtyards_overlap|195439999|91193823|053a947e-4f6f-4ac5-a809-7698900eab10|1b88a77d-68ce-487b-83a8-8f14f750e253",
+        "courtyards_overlap|196984946|89020001|1b88a77d-68ce-487b-83a8-8f14f750e253|b87c9d14-513f-4af7-8bfe-c174d61fb1cd",
+        "courtyards_overlap|203059999|114420001|b87c9d14-513f-4af7-8bfe-c174d61fb1cd|e122c2be-b85e-4efa-a1d0-fc3feb6b52e5",
+        "courtyards_overlap|203059999|129660001|46ba3cb2-de97-45a0-b72a-c649dc4569ff|e122c2be-b85e-4efa-a1d0-fc3feb6b52e5",
+        "courtyards_overlap|203059999|170300001|46ba3cb2-de97-45a0-b72a-c649dc4569ff|d51a9939-e610-492d-b2b6-d464178c6c32",
+        "courtyards_overlap|273024999|109220001|5079b732-e2e6-4b0b-ae05-c0663eaf9328|5499d95a-ac7b-4dfd-aa07-1d8316c4c30e",
+        "courtyards_overlap|273024999|129540001|10661205-d8a4-4dd8-9312-f83bf5673bfe|5079b732-e2e6-4b0b-ae05-c0663eaf9328",
+        "courtyards_overlap|273024999|149860001|10661205-d8a4-4dd8-9312-f83bf5673bfe|f9344a94-fc87-4881-b641-e272c36157ce",
+        "courtyards_overlap|273024999|170180001|5ad937bc-03c4-4fe7-974a-009584e8f199|f9344a94-fc87-4881-b641-e272c36157ce"
+      ],
       "meta": {
         "version": 2
       },
@@ -94,7 +108,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "error",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "ignore",
