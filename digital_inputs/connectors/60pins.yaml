@@ -150,18 +150,22 @@ pins:
 
   - pin: 7B
     function: Reference voltage out 1 (TPS1) 0.5v
+    color: green
   
   - pin: 8B
     function: Reference voltage out 2 (MAP) 0.6v
   
   - pin: 9B
     function: Reference voltage out 3 0.8v (often TPS2)
+    color: orange
   
   - pin: 10B
     function: Reference voltage out 4 0.9v (often PPS1)
+    color: green
 
   - pin: 11B
     function: Reference voltage out 5 1.1v (often PPS2)
+    color: orange
 
   - pin: 12B
     function: Reference voltage out 6 1.4v
