@@ -11,6 +11,11 @@ https://github.com/rusefi/rusefi/wiki/dev-hardware-quality-control
 
 # Changelog
 
+## rev C
+
+*
+* https://github.com/rusefi/stim/issues?q=label%3Arev-C+is%3Aclosed
+
 ## rev 0.2
 
 * CAN bus
