@@ -13,7 +13,9 @@ https://github.com/rusefi/rusefi/wiki/dev-hardware-quality-control
 
 ## rev C
 
-*
+* CAN board fix
+* second CAN board added
+* OUT0 pin moved from PA11 to PD8
 * https://github.com/rusefi/stim/issues?q=label%3Arev-C+is%3Aclosed
 
 ## rev 0.2
