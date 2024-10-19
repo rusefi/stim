@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.11-7.0.11~ubuntu22.04.1"
+      "Version": "8.0.6-8.0.6-0~ubuntu22.04.1"
     },
-    "CreationDate": "2024-10-18T03:17:22+00:00"
+    "CreationDate": "2024-10-19T22:31:58+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "digital_inputs",
       "GUID": "64696769-7461-46c5-9f69-6e707574732e",
-      "Revision": "rev?"
+      "Revision": "D"
     },
     "Size": {
       "X": 182.6,
@@ -36,16 +36,6 @@
     {
       "Path": "digital_inputs-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "digital_inputs-In1_Cu.g2",
-      "FileFunction": "Copper,L2,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "digital_inputs-In2_Cu.g3",
-      "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
