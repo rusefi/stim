@@ -8,6 +8,7 @@ https://github.com/rusefi/rusefi/wiki/dev-hardware-quality-control
 
 ![image](https://github.com/rusefi/stim/assets/48498823/09e251f0-d577-47c5-908c-776eeab344c3)
 
+![image](https://github.com/user-attachments/assets/39dcb7f5-e5aa-4cfe-b550-f8e7ae72a5f8)
 
 
 
