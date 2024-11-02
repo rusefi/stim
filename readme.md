@@ -1,5 +1,14 @@
 [Interactive Pinout](https://rusefi.com/docs/pinouts/stim/)
 
+## User Manual
+
+* bottom microUSB is required for operation
+* top microUSB is sometimes needed for firmware updates
+* blinking blue LD2 means "alive"
+* red LD3 means "board has failed test
+* green LD1 next to blinking blue means "test successful"
+
+
 See https://github.com/rusefi/rusefi-hardware/tree/main/digital-inputs for firmware
 
 Part of https://github.com/rusefi/rusefi infrastucture
@@ -7,9 +16,6 @@ Part of https://github.com/rusefi/rusefi infrastucture
 https://github.com/rusefi/rusefi/wiki/dev-hardware-quality-control
 
 ![image](https://github.com/rusefi/stim/assets/48498823/09e251f0-d577-47c5-908c-776eeab344c3)
-
-![image](https://github.com/user-attachments/assets/39dcb7f5-e5aa-4cfe-b550-f8e7ae72a5f8)
-
 
 
 
