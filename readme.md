@@ -2,6 +2,7 @@
 
 ## User Manual
 
+* [Download Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 * bottom microUSB is required for operation
 * top microUSB is sometimes needed for firmware updates
 * blinking blue LD2 means "alive"
