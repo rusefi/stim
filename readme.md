@@ -2,6 +2,11 @@
 
 ## User Manual
 
+* 12v DC power required
+* one microUSB cable required for operation
+* sometimes second microUSB is useful for firmware update
+  
+
 ![WhatsApp Image 2024-11-09 at 19 40 01_332a49eb](https://github.com/user-attachments/assets/d9948c5b-21ab-4139-89ac-f6e2a08bd654)
 
 ![image](https://github.com/user-attachments/assets/e0727842-1a35-4fec-a06a-08bea15601e5)
