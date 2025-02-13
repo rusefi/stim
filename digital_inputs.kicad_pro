@@ -59,7 +59,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|142095000|114405000|cd6d2d88-0e77-451b-b27b-3d8262e514e1|d3ca7092-fe93-4385-96f1-73282bbbdbda",
+        "courtyards_overlap|142095000|155045000|6fc2bf21-362b-46d2-9586-e3b6469dde89|cd6d2d88-0e77-451b-b27b-3d8262e514e1",
+        "courtyards_overlap|146267252|159762683|40b23242-1399-4eff-a4ee-6b30e6fb0804|d936a56e-3576-4c9f-868a-1c4b114e1c1b",
+        "courtyards_overlap|191987252|159762683|4c1c3577-5519-4e5c-b76f-21358d332ac0|d5b9861e-1ae1-48aa-bf47-f7a46658309e",
+        "courtyards_overlap|195435000|91193045|053a947e-4f6f-4ac5-a809-7698900eab10|1b88a77d-68ce-487b-83a8-8f14f750e253",
+        "courtyards_overlap|196974566|89025000|1b88a77d-68ce-487b-83a8-8f14f750e253|b87c9d14-513f-4af7-8bfe-c174d61fb1cd",
+        "courtyards_overlap|203055000|114425000|b87c9d14-513f-4af7-8bfe-c174d61fb1cd|e122c2be-b85e-4efa-a1d0-fc3feb6b52e5",
+        "courtyards_overlap|203055000|129665000|46ba3cb2-de97-45a0-b72a-c649dc4569ff|e122c2be-b85e-4efa-a1d0-fc3feb6b52e5",
+        "courtyards_overlap|203055000|170305000|46ba3cb2-de97-45a0-b72a-c649dc4569ff|d51a9939-e610-492d-b2b6-d464178c6c32",
+        "courtyards_overlap|273020000|109225000|5079b732-e2e6-4b0b-ae05-c0663eaf9328|5499d95a-ac7b-4dfd-aa07-1d8316c4c30e",
+        "courtyards_overlap|273020000|129545000|10661205-d8a4-4dd8-9312-f83bf5673bfe|5079b732-e2e6-4b0b-ae05-c0663eaf9328",
+        "courtyards_overlap|273020000|149865000|10661205-d8a4-4dd8-9312-f83bf5673bfe|f9344a94-fc87-4881-b641-e272c36157ce",
+        "courtyards_overlap|273020000|170185000|5ad937bc-03c4-4fe7-974a-009584e8f199|f9344a94-fc87-4881-b641-e272c36157ce",
+        "lib_footprint_mismatch|153017500|200900000|c8304f1a-813d-4a93-a4e5-9bac1fa1289f|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|218525000|109657500|8c149c4d-ea34-4d21-a493-7b7c9ee7290c|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|281500000|52812500|41fe7206-4f09-4d66-9492-41a0d24f0eb6|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -136,7 +153,7 @@
         "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -629,7 +646,7 @@
   "sheets": [
     [
       "4c34721c-e264-4f09-9eef-002c922c83d1",
-      "Root"
+      "Корневой лист"
     ]
   ],
   "text_variables": {}
