@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/runner/work/stim/stim/digital_inputs.kicad_sch</source>
-    <date>2024-11-12T16:27:18+0000</date>
-    <tool>Eeschema 8.0.6-8.0.6-0~ubuntu22.04.1</tool>
+    <date>2025-02-14T05:10:24+0000</date>
+    <tool>Eeschema 8.0.8-8.0.8-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>stim</title>
@@ -693,6 +693,25 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1cab426a-b18e-4361-b533-f9819def537b</tstamps>
     </comp>
+    <comp ref="J2">
+      <value>Barrel_Jack_Switch</value>
+      <footprint>Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal</footprint>
+      <description>DC Barrel Jack with an internal switch</description>
+      <fields>
+        <field name="LCSC">C111567</field>
+        <field name="Footprint">Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">DC Barrel Jack with an internal switch</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="LCSC" value="C111567"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="digital_inputs.kicad_sch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <property name="ki_fp_filters" value="BarrelJack*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>469dd808-7968-4a26-8c05-bb7ba1bc1499</tstamps>
+    </comp>
     <comp ref="J3">
       <value>Conn_01x08</value>
       <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal</footprint>
@@ -724,22 +743,6 @@
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a9b00365-f5b2-43d6-b3d1-58bb4b0aca0c</tstamps>
-    </comp>
-    <comp ref="J5">
-      <value>Conn_01x02</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
-      <fields>
-        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="digital_inputs.kicad_sch"/>
-      <property name="ki_keywords" value="connector"/>
-      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>fa256e87-03a2-4cb6-a29a-c3f872b1221d</tstamps>
     </comp>
     <comp ref="J6">
       <value>Conn_01x04</value>
@@ -3344,6 +3347,25 @@
         <pin num="8" name="V+" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">DC Barrel Jack with an internal switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x01">
       <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -3359,24 +3381,6 @@
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x02">
-      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x02</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x04">
@@ -4902,6 +4906,8 @@
       <node ref="J19" pin="34" pinfunction="34A" pintype="passive"/>
       <node ref="J19" pin="38" pinfunction="4B" pintype="passive"/>
       <node ref="J19" pin="60" pinfunction="26B" pintype="passive"/>
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="J2" pin="3" pintype="passive"/>
       <node ref="J20" pin="19" pinfunction="GND" pintype="passive"/>
       <node ref="J20" pin="20" pinfunction="GND" pintype="passive"/>
       <node ref="J20" pin="8" pinfunction="GND" pintype="passive"/>
@@ -4928,7 +4934,6 @@
       <node ref="J29" pin="8" pinfunction="GND" pintype="passive"/>
       <node ref="J30" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="J30" pin="29" pinfunction="GND" pintype="passive"/>
-      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
@@ -5015,33 +5020,33 @@
       <node ref="D4" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R57" pin="2" pintype="passive"/>
     </net>
-    <net code="119" name="Net-(J1-21A)">
+    <net code="119" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+    </net>
+    <net code="120" name="Net-(J1-21A)">
       <node ref="J1" pin="21" pinfunction="21A" pintype="passive"/>
       <node ref="R40" pin="2" pintype="passive"/>
     </net>
-    <net code="120" name="Net-(J1-22A)">
+    <net code="121" name="Net-(J1-22A)">
       <node ref="J1" pin="22" pinfunction="22A" pintype="passive"/>
       <node ref="R41" pin="2" pintype="passive"/>
     </net>
-    <net code="121" name="Net-(J1-31A)">
+    <net code="122" name="Net-(J1-31A)">
       <node ref="J1" pin="31" pinfunction="31A" pintype="passive"/>
       <node ref="P14" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="122" name="Net-(J1-32A)">
+    <net code="123" name="Net-(J1-32A)">
       <node ref="J1" pin="32" pinfunction="32A" pintype="passive"/>
       <node ref="P15" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="123" name="Net-(J1-33A)">
+    <net code="124" name="Net-(J1-33A)">
       <node ref="J1" pin="33" pinfunction="33A" pintype="passive"/>
       <node ref="P16" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="124" name="Net-(J1-34A)">
+    <net code="125" name="Net-(J1-34A)">
       <node ref="J1" pin="34" pinfunction="34A" pintype="passive"/>
       <node ref="P17" pin="1" pinfunction="Pin_1" pintype="passive"/>
-    </net>
-    <net code="125" name="Net-(J5-Pin_1)">
-      <node ref="F1" pin="2" pintype="passive"/>
-      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="126" name="Net-(J19A-21A)">
       <node ref="J19" pin="21" pinfunction="21A" pintype="passive"/>
