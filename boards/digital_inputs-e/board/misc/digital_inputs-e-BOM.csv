@@ -6,7 +6,6 @@ Comment,Designator,Footprint,LCSC Part #
 "LED","D1","LED_0805_2012Metric","C2297"
 "PESD1CAN","D2, D6","SOT-23","C343993"
 "LED-RED-0603","D3, D4","LED-0603","C2286"
-"1.8A","F1","Fuse_1206_3216Metric","C369161"
 "MountingHole","H1","MountingHole_3.2mm_M3",""
 "MountingHole","H2","MountingHole_3.2mm_M3",""
 "MountingHole","H3","MountingHole_3.2mm_M3",""
@@ -83,3 +82,4 @@ Comment,Designator,Footprint,LCSC Part #
 "TJA1051T-3","U12, U13","SO8","C38695"
 "LM78M05_TO252","U14","DPAK","C58069"
 "nSMD005","F2, F3, F4, F5, F6, F7, F8, F9","F1206","C70064"
+"nSMD100-16","F1","F1206","C70082"
