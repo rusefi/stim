@@ -215,7 +215,7 @@ pins:
     type: 12v output
 
   - pin: 26B
-    function: power GND
+    function: power ground GND
     type: gnd
 
 info:
