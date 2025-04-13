@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/runner/work/stim/stim/digital_inputs.kicad_sch</source>
-    <date>2025-02-14T21:14:53+0000</date>
-    <tool>Eeschema 8.0.8-8.0.8-0~ubuntu24.04.1</tool>
+    <date>2025-04-13T01:11:03+0000</date>
+    <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>stim</title>
