@@ -145,7 +145,7 @@ pins:
     type: av
   
   - pin: 6B
-    function: Pull Down 2K (CLT)
+    function: Pull Down 2K (CLT) see also 22C
     type: av
 
   - pin: 7B
